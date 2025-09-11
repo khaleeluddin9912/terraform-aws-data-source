@@ -64,12 +64,16 @@ aws_security_group → Retrieves Security Group details by tags
 
 aws_vpc → Gets VPC information by tags
 
+---
+
 ⚠️ Important Note
 Running these configurations may incur AWS charges (especially when combined with vpc.tf and ec2.tf).
 
 The data sources themselves are safe to query, but associated resources (like EC2 or VPC) may lead to billing.
 
 Use this repo for learning purposes only and at your own risk.
+
+---
 
 ✅ Best Practices
 Always run terraform plan before terraform apply to verify what resources will be fetched/created.
