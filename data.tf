@@ -1,4 +1,3 @@
-
 # generating ami id 
 data "aws_ami" "name" {
   most_recent = true
@@ -13,6 +12,8 @@ data "aws_availability_zones" "names" {
 #To get the account details
 data "aws_caller_identity" "name" {
 }
+
+# get the details of region
 data "aws_region" "name" {
 }
 
