@@ -1,4 +1,3 @@
-
 # generating ami id 
 data "aws_ami" "name" {
   most_recent = true
